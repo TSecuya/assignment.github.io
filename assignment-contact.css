@@ -1,0 +1,80 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+.sidebar{
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background-color: #333;
+    margin:0;
+    padding: 20px;
+}
+.sidebar h2{
+    margin-bottom: 20px;
+}
+
+.sidebar a{
+    color: white;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.sidebar a.selected{
+    color: #007bff;
+}
+
+.container2{
+    flex: 1;
+    pad: 10px 0px;
+    background-color: white;
+}
+.contact{
+    background:#007bff;
+    color:white;
+    text-align:center;
+    padding:20px 0px;
+    margin-bottom:20px;
+}
+.profile-img img{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+object-fit: cover;
+margin-bottom: 20px;
+border: 2px solid black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.imagecontainer{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+h1{
+    text-align: center;
+    margin: 10px 0;
+}
+p.about{
+ text-align: center;
+ margin: 10px auto;
+ width: 400px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.core-box, .contact-box{
+    margin-top: 20px;
+    width: 45%;
+}
